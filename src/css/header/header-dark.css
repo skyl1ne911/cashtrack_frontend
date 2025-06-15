@@ -1,0 +1,33 @@
+
+/* body {
+    background-color: rgb(20, 21, 28); 
+} 
+
+.header-dashboard__icon-arrow {
+    color: rgb(184, 207, 206) ;
+}
+
+.header-dropdown {
+    background-color: rgb(184, 207, 206);
+} */
+
+.header-dashboard__title.theme-dark {
+    color: rgb(184, 207, 206);
+}
+
+
+.header-dropdown.theme-dark, .header-dropdown-account.theme-dark {
+    background-color: rgb(51, 52, 70);
+}
+
+.header-dropdown__item-button-text.theme-dark, .header-dropdown-account__content-item.theme-dark, .header-dropdown-account__content-item__container.theme-dark {
+    color: rgb(210, 255, 253);
+}
+
+.header-dropdown__item-button-text.theme-dark.active {
+    background-color:  #433D8B;
+}
+
+.header-dropdown-account__content-item__container.theme-dark:hover {
+    background-color: #433D8B;
+}
