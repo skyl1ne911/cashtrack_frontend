@@ -10,7 +10,8 @@
 }
 
 .auth-modal-container {
-    margin: 0 auto;
+    margin: auto;
+    z-index: 60;
     position: relative;
     max-width: 400px;
     max-height: max-content;
@@ -70,7 +71,7 @@
     color: rgb(210, 255, 253);
     background-color: rgb(51, 52, 70);
     margin: 0 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 10px;
 }
 

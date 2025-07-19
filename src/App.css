@@ -1,6 +1,23 @@
+@import "tailwindcss";
+
+:root {
+    --main-font: "Manrope", sans-serif;
+    --sec-font: "inter", sans-serif;
+}
+
+body {
+    background-color: #232328;
+}
+
 h1, h2, h3, h4, h5, h6, p, button {
     margin: 0;
-    font-family: "Manrope", sans-serif;
+    font-family: var(--main-font)
+}
+
+button {
+    border: 0;
+    outline: none;
+    background: transparent;
 }
 
 ul {
@@ -11,6 +28,32 @@ li {
     list-style-type: none;
 }
 
-body {
-    /* background-color: #666666; */
+.container {
+    max-width: calc(100% - 160px);
+    margin: 0 80px;
 }
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    cursor: default;
+}
+
+.light {
+    --default-color: black;
+    --bg-dd-color: rgb(232, 249, 255);
+    --text-color: rgb(13, 43, 62);
+    --bg-btn-h-color: #578FCA60;
+    --bg-btn-a-color: #578FCA80;
+}
+
+.dark {
+    /* --bg-dd-color: rgb(51, 52, 70); */
+    --default-color: white;
+    --bg-dd-color: #123458;
+    --text-color: rgb(210, 255, 253);
+    --bg-btn-a-color: #2e587c;
+    --bg-btn-h-color: #2e587c;
+}
+
